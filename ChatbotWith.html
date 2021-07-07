@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> Robot Base </title>
+  <link rel="stylesheet" href="style2.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="center">
+
+    <span></span>
+
+    <table style="width:40%">
+      <tr>
+        <th> </th>
+        <th> </th>
+        <th> </th>
+      </tr>
+      <tr>
+        <td></td>
+        <td>
+          <div class="center">
+            <div class="outer button">
+              <button>Foward</button>
+              <span></span>
+              <span></span>
+            </div>
+        </td>
+        <td> </td>
+      </tr>
+  </div>
+
+  <br>
+
+  <tr>
+    <td></td>
+    <div class="outer button">
+      <button>Left</button>
+      <span></span>
+      <span></span>
+    </div>
+    </div>
+    <br>
+    <br> <br> <br> <br> <br>
+
+
+    </td>
+    <td>
+      <br><br><br><br>
+
+
+      <div class="outer circle">
+        <button>Stop</button>
+        <span></span>
+        <span></span>
+      </div>
+    </td>
+
+    <td>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class="outer button">
+        <button>Right</button>
+        <span></span>
+        <span></span>
+      </div>
+    </td>
+  </tr>
+  </div>
+
+
+
+  <tr>
+
+
+    <td></td>
+    <td>
+      <br><br><br><br>
+
+      <div class="outer button">
+        <button>Backward</button>
+        <span></span>
+        <span></span>
+      </div>
+    <td>
+    </td>
+  </tr>
+
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "49d6393c-1440-4eb1-8a0d-601f96e42bde", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "69ba6702-3292-42ff-a8f8-7ecf1eede09e", // The ID of your service instance.
+      onLoad: function (instance) { instance.render(); }
+    };
+    setTimeout(function () {
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</body>
+
+</html>

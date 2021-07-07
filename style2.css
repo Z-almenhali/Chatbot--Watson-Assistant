@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+  background: rgb(79, 104, 175); 
+  
+  }
+  
+  
+  .center{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .outer{
+    position: relative;
+    margin: 0 50px;
+    background: #25138b;
+  }
+  .button{
+    height: 60px;
+    width: 190px;
+    border-radius: 50px;
+  }
+  .circle{
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+  }
+  .outer button, .outer span{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .outer button{
+    background: rgb(116, 167, 216);
+    color: #f2f2f2;
+    outline: none;
+    border: none;
+    font-size: 21px;
+    z-index: 9;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    cursor: pointer;
+  }
+  .button button{
+    height: 50px;
+    width: 180px;
+    border-radius: 50px;
+  }
+  .circle button{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+  }
+  .outer span{
+    height: 100%;
+    width: 100%;
+    background: inherit;
+  }
+  .button span{
+    border-radius: 50px;
+  }
+  .circle span{
+    border-radius: 50%;
+  }
+  .outer:hover span:nth-child(1){
+    filter: blur(7px);
+  }
+  .outer:hover span:nth-child(2){
+    filter: blur(14px);
+  }
+  
+ 
+  
