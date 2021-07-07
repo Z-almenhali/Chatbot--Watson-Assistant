@@ -1,1 +1,1 @@
-# Chatbot--Watson-Assistant
+# Chatbot-Watson-Assistant
